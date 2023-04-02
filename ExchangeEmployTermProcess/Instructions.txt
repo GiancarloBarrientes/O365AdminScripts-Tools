@@ -1,0 +1,15 @@
+Requirements:  Cloud Admin account with Exchange admin permissions.
+
+This Tool is responsible for converting user's inboxes to a shared inbox, block sign-in and then will remove a microsoft license. 
+This will also configure a ooo message stating that the user is not longer working for the company please reach out to manager@email.com.
+This all can be configured via CSV file. See ExchangeEmployTermProcess/Main/Data/TermData.csv to see how this should be setup. 
+
+Once you confirmed that your data is good. Go ahead and run ExchangeEmployTermProcess/Main/ExchangeTermMain.ps1 
+
+You will connect to Exchange Online and MSOnline. Use a Cloud Admin account with Exchange admin permissions.
+
+After that the script will load in the csv file that you will specify on Line 9 of ExchangeTermMain.ps1
+
+After this the script will perform its functions, this should complete with no errors. 
+
+Though as always test scripts in a controlled environment before using this on a production environment. 
