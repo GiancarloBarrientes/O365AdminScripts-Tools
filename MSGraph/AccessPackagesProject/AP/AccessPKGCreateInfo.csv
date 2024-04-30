@@ -1,0 +1,4 @@
+﻿AccessPackageName,AccessPackageDesc
+AWS-123456789-Admin,This Access package controls Admin level access to AWS Test instance
+AWS-123456789-ReadOnly,This Access package controls ReadOnly level access to AWS Test instance
+AWS-123456789-User,This Access package controls User level access to AWS Test instance

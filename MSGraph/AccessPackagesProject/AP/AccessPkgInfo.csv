@@ -1,0 +1,2 @@
+﻿CatalogName,CatalogDesc,AccessPackageName,AccessPackageDesc,scopetype,acceptrequests,accesspkgapprovalreq,accesspkgapprovalreqext,accesspkgrequestorjustify,AccessPackagePolicyName,AccessPackagePolicyDesc,duration
+AWS-Catalog,AWS Catalog,AWS-Access-Pkge,AWS Environment Access Package,NoSubjects,$false,$true,$false,$false,Administrator managed (365 days),admin managed policy,365
