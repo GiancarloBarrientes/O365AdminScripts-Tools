@@ -13,7 +13,7 @@
 
 Connect-MgGraph -Scopes "EntitlementManagement.ReadWrite.All"
 # ACTION ITEMS TO CHANGE WHICH GROUP/AccessPKG YOU WANT TO CHECK/Target. Make sure to spell the name write
-$GroupNameDisplayName = "OSG AWS-123456789-Admin"
+$GroupNameDisplayName = "AWS-123456789-Admin"
 $TargetAccessPKGDisplayName = "AWS-123456789-Admin"
 $UserTimeApplied = Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ"
 
